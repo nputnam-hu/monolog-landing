@@ -8,9 +8,9 @@
 .section1 {
  display: flex;
  flex-direction: row; 
- width: 1244px;
- margin-left: calc((100vw - 1244px) * 0.65);
- margin-right: calc((100vw - 1244px) * 0.35);
+ width: 1230px;
+ margin-left: calc((100vw - 1230px) * 0.63);
+ margin-right: calc((100vw - 1230px) * 0.37);
  justify-content: space-between;
 }
 
@@ -19,13 +19,13 @@
   font-size: 90px;
   font-family: avenir-next-bold;
   /* margin-top: 10px; */
-  line-height: 122%;
+  line-height: 120%;
 }
 
 .section1 p {
   font-size: 28px;
   width: 85%;
-  line-height: 145%;
+  line-height: 140%;
 }
 
 .section1 b {
@@ -34,8 +34,8 @@
 
 .waitlistbutton {
   border: 1px solid rgba(0,0,0,0.9);
-  width: 227px;
-  height: 60px;
+  width: 208px;
+  height: 55px;
   border-radius: 2px;
   justify-content: space-around;
   align-items: center;
@@ -48,7 +48,7 @@
 
 .waitlistbutton span {
   font-weight: 500;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 .section2 {

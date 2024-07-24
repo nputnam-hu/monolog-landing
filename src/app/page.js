@@ -24,7 +24,7 @@ export default function Home() {
             <br />
             from the Future
           </h2>
-          <div style={{ height: 10 }} />
+          <div style={{ height: 14 }} />
           <p className={inter.className}>
             Monolog is an AI voice notes app designed for wide-eyed creatives.
             Generate a quality first draft for{" "}
@@ -36,8 +36,8 @@ export default function Home() {
         </div>
         <Image
           src="/index-diagram.svg"
-          height={496}
-          width={496}
+          height={492}
+          width={492}
           alt="graphic depicting the monolog app"
           style={{
             marginTop: "auto",
@@ -56,8 +56,8 @@ export default function Home() {
 const RigthArrow = () => (
   <svg
     width="38"
-    height="18"
-    viewBox="0 0 38 18"
+    height="16"
+    viewBox="0 0 38 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
