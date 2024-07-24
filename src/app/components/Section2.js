@@ -21,8 +21,8 @@ const Section2 = () => {
               Enter Monolog. Our platform takes in your unfiltered speech and
               automatically transcribes and transforms it into a dynamic
               document, engineered to kickstart your creative process. All you
-              need to do is ramble your thoughts into a microphone and our AI
-              takes care of the rest.
+              need to do is free associate your thoughts into a microphone and
+              our AI takes care of the rest.
             </p>
           </div>
           <Image
@@ -39,16 +39,17 @@ const Section2 = () => {
             <h3>Your Ideas & Insights, Scaffolded by AI</h3>
             <p>
               Unlike most AI writing tools that rely largely on short
-              instruction prompts to generate text, Monolog pulls in a large
-              amount of rich context and content directly from the audio note
-              that you upload.
+              instruction prompts to generate text, Monolog pulls in a vast
+              amount of rich content and context directly from the audio you
+              upload to power our creative engine.
             </p>
             <br />
             <p>
-              We extract key themes, ideas, and terminology from your audio to
-              inform our generations and give you control over how the AI uses
-              that content. This model allows our AI system to generate cogent,
-              slop-free writing in your own voice.
+              We extract key themes, ideas, and terminology from your voice note
+              to inform our generations, and give you control over how the AI
+              intereprets and applies that content. With this model, Monolog is
+              able to generates cogent, slop-free writing for you in your own
+              voice.
             </p>
           </div>
           <Image
