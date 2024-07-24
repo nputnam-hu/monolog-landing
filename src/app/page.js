@@ -40,9 +40,9 @@ export default function Home() {
           width={492}
           alt="graphic depicting the monolog app"
           style={{
-            marginTop: "auto",
+            // marginTop: "auto",
             marginBottom: "auto",
-            // marginTop: -4,
+            marginTop: -4,
           }}
         />
       </div>
