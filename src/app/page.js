@@ -16,9 +16,9 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 96 }} />
+      <div style={{ height: 88 }} />
       <div className={styles.section1}>
-        <div className="col">
+        <div className="col" style={{ margin: "auto" }}>
           <h2>
             Voice Notes
             <br />
@@ -39,13 +39,15 @@ export default function Home() {
           height={476}
           width={476}
           alt="graphic depicting the monolog app"
-          style={{
-            marginTop: -8,
-            // marginBottom: "auto",
-          }}
+          style={
+            {
+              // marginTop: -8,
+              // marginBottom: "auto",
+            }
+          }
         />
       </div>
-      <div style={{ height: 248 }} />
+      <div style={{ height: 252 }} />
       <Section2 />
       <div style={{ height: 252 }} />
     </main>
