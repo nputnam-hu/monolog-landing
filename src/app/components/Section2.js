@@ -38,10 +38,10 @@ const Section2 = () => {
           <div className={styles.cardcol}>
             <h3>Your Ideas & Insights, Scaffolded by AI</h3>
             <p>
-              Voice is an incredibly powerful tool for crafting and refining new
-              ideas, but software voice memos on their own are unable to unlock
-              that potential. To enable true ideation we need more than just
-              software that listens to us.
+              Speech is an incredibly powerful tool for crafting and refining
+              new ideas, but software voice memos on their own are unable to
+              unlock that potential. To enable true ideation we need more than
+              just software that listens to us.
             </p>
             <br />
             <p>
