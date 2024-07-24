@@ -36,11 +36,11 @@ export default function Home() {
         </div>
         <Image
           src="/index-diagram.svg"
-          height={480}
-          width={480}
+          height={476}
+          width={476}
           alt="graphic depicting the monolog app"
           style={{
-            marginTop: -10,
+            marginTop: -12,
             // marginBottom: "auto",
           }}
         />
