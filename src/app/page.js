@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 100 }} />
+      <div style={{ height: 98 }} />
       <div className={styles.section1}>
         <div className="col">
           <h2>
@@ -46,7 +46,7 @@ export default function Home() {
           }}
         />
       </div>
-      <div style={{ height: 220 }} />
+      <div style={{ height: 240 }} />
       <Section2 />
       <div style={{ height: 252 }} />
     </main>
