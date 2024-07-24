@@ -27,8 +27,8 @@ const Section2 = () => {
           </div>
           <Image
             src="/ss1.png"
-            height={498}
-            width={692}
+            height={495}
+            width={688}
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
@@ -52,8 +52,8 @@ const Section2 = () => {
           </div>
           <Image
             src="/ss2.png"
-            height={498}
-            width={692}
+            height={495}
+            width={688}
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
@@ -79,8 +79,8 @@ const Section2 = () => {
           </div>
           <Image
             src="/ss3.png"
-            height={498}
-            width={692}
+            height={495}
+            width={688}
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
