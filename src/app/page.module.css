@@ -24,7 +24,7 @@
 
 .section1 p {
   font-size: 27px;
-  width: 85%;
+  width: 82%;
   line-height: 145%;
 }
 
@@ -60,7 +60,7 @@
 
 .section2 h3 {
   color: #415A61;
-  font-size: 45px;
+  font-size: 47px;
   font-family: avenir-next-demi; 
   line-height: 135%;
   margin-bottom: 12px;
@@ -94,5 +94,6 @@
   flex-direction: column;
   width: 530px;
   margin-right: 60px;
-  /* margin: auto 0; */
+  margin-top: auto;
+  margin-bottom: auto;
 }
