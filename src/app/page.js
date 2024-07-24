@@ -45,7 +45,7 @@ export default function Home() {
           }}
         />
       </div>
-      <div style={{ height: 244 }} />
+      <div style={{ height: 248 }} />
       <Section2 />
       <div style={{ height: 252 }} />
     </main>
