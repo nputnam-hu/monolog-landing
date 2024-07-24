@@ -22,7 +22,7 @@ const Section2 = () => {
               automatically transcribes and transforms it into a dynamic
               document, engineered to kickstart your creative process. All you
               need to do is ramble your thoughts into a microphone and our AI
-              will take care of the rest.
+              takes care of the rest.
             </p>
           </div>
           <Image
