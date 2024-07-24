@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'avenir-next-medium';
+  src: url('/fonts/avenir-next-medium.ttf');
+ }
+@font-face {
+  font-family: 'avenir-next-demi';
+  src: url('/fonts/avenir-next-demi.ttf');
+ }
+@font-face {
+  font-family: 'avenir-next-bold';
+  src: url('/fonts/avenir-next-bold.ttf');
+ }
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -57,8 +70,21 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbutton {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  background: none;
 }
