@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 92 }} />
+      <div style={{ height: 96 }} />
       <div className={styles.section1}>
         <div className="col">
           <h2>
@@ -31,7 +31,7 @@ export default function Home() {
             <b>any kind of high level creative output</b>, just from an audio
             file.
           </p>
-          <div style={{ height: 24 }} />
+          <div style={{ height: 26 }} />
           <WaitlistButton />
         </div>
         <Image
