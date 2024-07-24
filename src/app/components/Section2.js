@@ -18,11 +18,11 @@ const Section2 = () => {
             </p>
             <br />
             <p>
-              Enter Monolog. Our platform takes in your unfiltered speech and
-              automatically transcribes and transforms it into a dynamic
-              document, engineered to kickstart your creative process. All you
-              need to do is free associate your thoughts into a microphone and
-              our AI takes care of the rest.
+              That is why we built Monolog. Our platform takes in your
+              unfiltered speech and automatically transcribes and transforms it
+              into a dynamic document, engineered to kickstart your creative
+              process. All you need to do is free associate your thoughts into a
+              microphone and our AI takes care of the rest.
             </p>
           </div>
           <Image
