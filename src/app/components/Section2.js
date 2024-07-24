@@ -10,10 +10,10 @@ const Section2 = () => {
           <div className={styles.cardcol}>
             <h3>From Speech to Spark</h3>
             <p>
-              Voice is an incredibly powerful tool for crafting and refining new
-              ideas, but software voice memos on their own are unable to unlock
-              that potential. To enable true ideation we need more than just
-              software that listens to us—we need software that{" "}
+              Speech is an incredibly powerful tool for crafting and refining
+              new ideas, but software voice memos on their own are unable to
+              unlock that potential. To enable true ideation we need more than
+              just software that listens to us—we need software that{" "}
               <em>talks back</em>.
             </p>
             <br />
@@ -65,16 +65,16 @@ const Section2 = () => {
           <div className={styles.cardcol}>
             <h3>Chat, Edit, Iterate</h3>
             <p>
-              Voice is an incredibly powerful tool for crafting and refining new
-              ideas, but software voice memos on their own are unable to unlock
-              that potential. To enable true ideation we need more than just
-              software that listens to us—we need software that talks back.
+              Once your document has been generated, you can chat with our AI to
+              suggest areas for edits and revisions, identify weak or extraneous
+              sections to cut, find new data and topics that strengthen your
+              thesis, and more.
             </p>
             <br />
             <p>
               Enter Monolog. Our platform takes in your unfiltered speech and
               automatically transcribes and transforms it into a dynamic
-              document, engineered to kickstart your creative process. Simply
+              document, fine-tuned to kickstart your creative process. Simply
               free associate into a microphone and our AI will take care of the
               rest.
             </p>
