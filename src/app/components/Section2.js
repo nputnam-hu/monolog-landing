@@ -33,7 +33,7 @@ const Section2 = () => {
             className={styles.cardimg}
           />
         </div>
-        <div style={{ height: 280 }} />
+        <div style={{ height: 272 }} />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
             <h3>Your Ideas & Insights, Scaffolded by AI</h3>
@@ -58,7 +58,7 @@ const Section2 = () => {
             className={styles.cardimg}
           />
         </div>
-        <div style={{ height: 280 }} />
+        <div style={{ height: 272 }} />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
             <h3>Chat, Edit, Iterate</h3>
