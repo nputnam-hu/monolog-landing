@@ -14,14 +14,11 @@ export default function Home() {
         height={45}
         width={192}
         alt="monolog"
-        style={{ marginLeft: 42 }}
+        style={{ marginLeft: 45 }}
       />
-      <div style={{ height: 92 }} />
+      <div style={{ height: 96 }} />
       <div className={styles.section1}>
-        <div
-          className="col"
-          // style={{ margin: "auto" }}
-        >
+        <div className="col" style={{ marginRight: 66, width: 675 }}>
           <h2>
             Voice Notes
             <br />
@@ -39,15 +36,13 @@ export default function Home() {
         </div>
         <Image
           src="/index-diagram.svg"
-          height={468}
-          width={468}
+          height={512}
+          width={512}
           alt="graphic depicting the monolog app"
-          style={
-            {
-              // marginTop: -4,
-              // marginBottom: "auto",
-            }
-          }
+          style={{
+            marginTop: -10,
+            // marginBottom: "auto",
+          }}
         />
       </div>
       <div style={{ height: 252 }} />
