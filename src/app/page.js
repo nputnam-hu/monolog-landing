@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 86 }} />
+      <div style={{ height: 92 }} />
       <div className={styles.section1}>
         <div
           className="col"
