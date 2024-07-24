@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 98 }} />
+      <div style={{ height: 96 }} />
       <div className={styles.section1}>
         <div className="col">
           <h2>
@@ -31,18 +31,17 @@ export default function Home() {
             <b>any kind of high level creative output</b>, just from an audio
             file.
           </p>
-          <div style={{ height: 18 }} />
+          <div style={{ height: 20 }} />
           <WaitlistButton />
         </div>
         <Image
           src="/index-diagram.svg"
-          height={490}
-          width={490}
+          height={486}
+          width={486}
           alt="graphic depicting the monolog app"
           style={{
-            // marginTop: "auto",
+            marginTop: "auto",
             marginBottom: "auto",
-            marginTop: -4,
           }}
         />
       </div>

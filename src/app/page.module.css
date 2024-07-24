@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding: 36px 0;
+  padding: 34px 0;
   min-height: 100vh;
 }
 
@@ -23,9 +23,9 @@
 }
 
 .section1 p {
-  font-size: 28px;
+  font-size: 27px;
   width: 85%;
-  line-height: 143%;
+  line-height: 145%;
 }
 
 .section1 b {
@@ -60,7 +60,7 @@
 
 .section2 h3 {
   color: #415A61;
-  font-size: 46px;
+  font-size: 45px;
   font-family: avenir-next-demi; 
   line-height: 135%;
   margin-bottom: 12px;
@@ -68,7 +68,7 @@
 
 .section2 p {
   /* font-weight:300; */
-  font-size: 24px;
+  font-size: 23px;
   line-height: 138%;
   /* width: 5306x; */
 }
@@ -84,7 +84,7 @@
   box-shadow: 0 0 12px 2px rgba(81, 87, 226, 0.4);
   border-radius: 4px;
   margin: auto 0;
-  margin-top:8px;
+  margin-top: 8px;
   /* margin-left: 52px; */
 
 }
@@ -92,7 +92,7 @@
 .cardcol {
   display: flex;
   flex-direction: column;
-  width: 560px;
-  margin-right: 52px;
+  width: 530px;
+  margin-right: 60px;
   /* margin: auto 0; */
 }
