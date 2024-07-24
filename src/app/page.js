@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 96 }} />
+      <div style={{ height: 100 }} />
       <div className={styles.section1}>
         <div className="col">
           <h2>
@@ -24,14 +24,14 @@ export default function Home() {
             <br />
             from the Future
           </h2>
-          <div style={{ height: 12 }} />
+          <div style={{ height: 10 }} />
           <p className={inter.className}>
             Monolog is an AI voice notes app designed for wide-eyed creatives.
             Generate a quality first draft for{" "}
             <b>any kind of high level creative output</b>, just from an audio
             file.
           </p>
-          <div style={{ height: 26 }} />
+          <div style={{ height: 18 }} />
           <WaitlistButton />
         </div>
         <Image
