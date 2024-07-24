@@ -16,7 +16,7 @@ export default function Home() {
         alt="monolog"
         style={{ marginLeft: 42 }}
       />
-      <div style={{ height: 88 }} />
+      <div style={{ height: 86 }} />
       <div className={styles.section1}>
         <div className="col" style={{ margin: "auto" }}>
           <h2>
@@ -36,12 +36,12 @@ export default function Home() {
         </div>
         <Image
           src="/index-diagram.svg"
-          height={476}
-          width={476}
+          height={468}
+          width={468}
           alt="graphic depicting the monolog app"
           style={
             {
-              // marginTop: -8,
+              // marginTop: -4,
               // marginBottom: "auto",
             }
           }
