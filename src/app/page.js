@@ -18,7 +18,7 @@ export default function Home() {
       />
       <div style={{ height: 96 }} />
       <div className={styles.section1}>
-        <div className="col" style={{ marginRight: 66, width: 675 }}>
+        <div className="col" style={{ marginRight: 62, width: 675 }}>
           <h2>
             Voice Notes
             <br />
@@ -36,8 +36,8 @@ export default function Home() {
         </div>
         <Image
           src="/index-diagram.svg"
-          height={512}
-          width={512}
+          height={508}
+          width={508}
           alt="graphic depicting the monolog app"
           style={{
             marginTop: -10,
