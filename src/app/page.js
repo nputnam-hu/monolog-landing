@@ -18,7 +18,7 @@ export default function Home() {
       />
       <div style={{ height: 96 }} />
       <div className={styles.section1}>
-        <div className="col" style={{ marginRight: 64, width: 675 }}>
+        <div className="col" style={{ marginRight: 66, width: 675 }}>
           <h2>
             Voice Notes
             <br />
