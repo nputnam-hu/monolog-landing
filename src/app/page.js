@@ -11,8 +11,8 @@ export default function Home() {
     <main className={styles.main}>
       <Image
         src="/monolog-logo.png"
-        height={46}
-        width={196}
+        height={45}
+        width={192}
         alt="monolog"
         style={{ marginLeft: 45 }}
       />
