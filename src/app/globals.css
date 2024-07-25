@@ -87,6 +87,7 @@ a {
   display: flex;
   flex-direction: row;
   background: none;
+  color: black;
 }
 
 @media screen and (min-width: 900px) {
