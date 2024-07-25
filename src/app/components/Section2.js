@@ -11,7 +11,7 @@ const Section2 = () => {
             <h3>From Speech to Spark</h3>
             <p>
               Speech is an incredibly powerful tool for crafting and refining
-              new ideas, but computer voice memos on their own are unable to
+              new ideas, but software voice memos on their own are unable to
               unlock that potential. To enable true ideation we need more than
               just software that listens to us—we need software that{" "}
               <em>talks back</em>.
