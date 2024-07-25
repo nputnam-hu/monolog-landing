@@ -14,24 +14,30 @@ export default function Home() {
         height={45}
         width={192}
         alt="monolog"
+        className={styles.logo}
         style={{ marginLeft: 45 }}
       />
-      <div style={{ height: 96 }} />
+      <div style={{ height: 96 }} className="desktoponly" />
+      <div style={{ height: 52 }} className="mobileonly" />
       <div className={styles.section1}>
-        <div className="col" style={{ marginRight: 66, width: 675 }}>
-          <h2>
+        <div
+          className={cs("col", styles.section1col)}
+          style={{ marginRight: 66, width: 675 }}
+        >
+          <h2 className="desktoponly">
             Voice Notes
             <br />
             from the Future
           </h2>
-          <div style={{ height: 10 }} />
+          <div style={{ height: 10 }} className="desktoponly" />
           <p className={inter.className}>
             Monolog is an AI voice notes app designed for wide-eyed creatives.
             Generate a quality first draft for{" "}
             <b>any kind of high level creative output</b>, just from an audio
             file.
           </p>
-          <div style={{ height: 20 }} />
+          <div style={{ height: 20 }} className="desktoponly" />
+          <div style={{ height: 14 }} className="mobileonly" />
           <WaitlistButton />
         </div>
         <Image
@@ -44,8 +50,8 @@ export default function Home() {
             // marginBottom: "auto",
           }}
         />
+        <h2 className="mobileonly">Voice Notes from the Future</h2>
       </div>
-      <div style={{ height: 252 }} />
       <Section2 />
       <div style={{ height: 252 }} />
     </main>
