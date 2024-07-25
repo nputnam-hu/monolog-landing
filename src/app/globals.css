@@ -89,13 +89,13 @@ a {
   background: none;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 900px) {
   .mobileonly{
     display: none;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
   .desktoponly{
     display: none;
   }

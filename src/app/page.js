@@ -18,7 +18,7 @@ export default function Home() {
         style={{ marginLeft: 45 }}
       />
       <div style={{ height: 96 }} className="desktoponly" />
-      <div style={{ height: 52 }} className="mobileonly" />
+      <div style={{ height: 44 }} className="mobileonly" />
       <div className={styles.section1}>
         <div
           className={cs("col", styles.section1col)}
@@ -50,7 +50,11 @@ export default function Home() {
             // marginBottom: "auto",
           }}
         />
-        <h2 className="mobileonly">Voice Notes from the Future</h2>
+        <h2 className="mobileonly">
+          Voice Notes
+          <br />
+          from the Future
+        </h2>
       </div>
       <Section2 />
       <div style={{ height: 252 }} />

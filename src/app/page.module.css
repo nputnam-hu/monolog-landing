@@ -250,15 +250,17 @@
 }
 
 /* MOBILE */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
   .section1{
     margin-left: 4vw;
     margin-right: 4vw;
   }
   .section1 h2 {
-    font-size: 68px;
+    font-size: 76px;
     font-family: avenir-next-demi;
     margin: 0 auto;
+    /* margin-top: -8px; */
+    text-align: center;
   }
   
   .section1 p {
@@ -275,7 +277,7 @@
   .section1 img {
     width: 400px;
     height: 400px;
-    margin:24px auto 22px !important;
+    margin:18px auto 18px !important;
   }
 
   .section1{
@@ -294,29 +296,9 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .section1 h2 {
-    font-size: 68px;
-    font-family: avenir-next-demi;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .section1 p {
-    font-size: 22px;
-    width: 90%;
-  }
-
-  .logo{
-    /* width: 136.35px;
-    height: 32px; */
-    /* margin: auto !important; */
-  }
-}
-
 @media screen and (max-width: 800px) {
   .section1 h2 {
-    font-size: 64px;
+    font-size: 68px;
   }
   .section1 img {
     width: 392px;
@@ -332,14 +314,14 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
   .section1{
     margin-left: 2vw;
     margin-right: 2vw;
   }
   .section1 h2 {
     margin-top: -16px;
-    font-size: 54px;
+    font-size: 52px;
   }
   .logo{
     width: 136.35px;
@@ -347,8 +329,8 @@
     margin: auto !important;
   }
   .section1 img {
-    width: 370px;
-    height: 370px;
+    width: 360px;
+    height: 360px;
     margin:16px auto 14px !important;
   }
   .section1col{
