@@ -63,6 +63,21 @@ export default function Home() {
         style={{ maxWidth: 800, margin: "auto", alignItems: "center" }}
       >
         <h3
+          className="mobileonly"
+          style={{
+            fontFamily: "avenir-next-medium",
+            fontSize: 36,
+            textAlign: "center",
+            color: "#5157E2",
+            lineHeight: "135%",
+            fontWeight: "500",
+            margin: "0 2vw",
+          }}
+        >
+          Get Notified When We Launch
+        </h3>
+        <h3
+          className="desktoponly"
           style={{
             fontFamily: "avenir-next-medium",
             fontSize: 48,
