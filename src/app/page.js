@@ -3,6 +3,7 @@ import cs from "classnames";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Section2 from "./components/Section2";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,7 +57,26 @@ export default function Home() {
         </h2>
       </div>
       <Section2 />
-      <div style={{ height: 252 }} />
+      <div style={{ height: 300 }} />
+      <div
+        className="col"
+        style={{ maxWidth: 800, margin: "auto", alignItems: "center" }}
+      >
+        <h3
+          style={{
+            fontFamily: "avenir-next-medium",
+            fontSize: 48,
+            textAlign: "center",
+            color: "#5157E2",
+            lineHeight: "135%",
+          }}
+        >
+          Get Notified When We Launch
+        </h3>
+        <div style={{ height: 52 }} />
+        <WaitlistButton />
+      </div>
+      <div style={{ height: 100 }} />
     </main>
   );
 }
@@ -78,11 +98,13 @@ const RigthArrow = () => (
 
 function WaitlistButton() {
   return (
-    <button
+    <Link
+      href="https://forms.gle/fgiGq2fJfYc3nsQN6"
+      target="_blank"
       className={cs("flexbutton", styles.waitlistbutton, inter.className)}
     >
       <span>Join Waitlist</span>
       <RigthArrow />
-    </button>
+    </Link>
   );
 }

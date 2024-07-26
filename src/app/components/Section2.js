@@ -33,7 +33,8 @@ const Section2 = () => {
           />
           <h3 className="narrowonly">From Speech to Spark</h3>
         </div>
-        <div style={{ height: 292 }} />
+        <div style={{ height: 292 }} className="desktoponly" />
+        <div style={{ height: 180 }} className="mobileonly" />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
             <h3 className="wideonly">
@@ -50,8 +51,8 @@ const Section2 = () => {
               We extract key themes, ideas, and terminology from your voice note
               to inform our generations, and give you control over how the AI
               intereprets and applies that content. With this model, Monolog is
-              able to generate cogent, slop-free writing for you in your own
-              voice.
+              able to generate cogent, slop-free writing for you, all in your
+              own voice.
             </p>
           </div>
           <Image
@@ -62,10 +63,13 @@ const Section2 = () => {
             className={styles.cardimg}
           />
           <h3 className="narrowonly">
-            Your Ideas & Insights, Scaffolded by AI
+            Your Ideas & Insights,
+            <br />
+            Scaffolded by AI
           </h3>
         </div>
-        <div style={{ height: 292 }} />
+        <div style={{ height: 292 }} className="desktoponly" />
+        <div style={{ height: 180 }} className="mobileonly" />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
             <h3 className="wideonly">Chat, Edit, Iterate</h3>
