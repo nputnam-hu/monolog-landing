@@ -77,7 +77,7 @@ const Section2 = () => {
               Once your document has been generated, you can chat with our AI to
               suggest areas for edits and revisions, identify extraneous
               sections to cut, find new data and topics that strengthen your
-              thesis, and more. As you go further down this process of sculpting
+              thesis, and more. As you go further down the process of sculpting
               your work, you can also add new audio to the note to be
               incorporated into the document.
             </p>
