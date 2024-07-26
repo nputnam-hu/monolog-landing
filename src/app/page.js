@@ -3,6 +3,7 @@ import cs from "classnames";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Section2 from "./components/Section2";
+import DiagramImg from "/public/index-diagram.png";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -41,7 +42,7 @@ export default function Home() {
           <WaitlistButton />
         </div>
         <Image
-          src="/index-diagram.png"
+          src={DiagramImg}
           height={512}
           width={512}
           alt="graphic depicting the monolog app"
