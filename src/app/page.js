@@ -41,7 +41,7 @@ export default function Home() {
           <WaitlistButton />
         </div>
         <Image
-          src="/index-diagram.svg"
+          src="/index-diagram.png"
           height={512}
           width={512}
           alt="graphic depicting the monolog app"
