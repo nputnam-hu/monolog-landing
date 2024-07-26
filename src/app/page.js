@@ -69,6 +69,7 @@ export default function Home() {
             textAlign: "center",
             color: "#5157E2",
             lineHeight: "135%",
+            fontWeight: "600",
           }}
         >
           Get Notified When We Launch

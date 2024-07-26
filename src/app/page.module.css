@@ -65,6 +65,7 @@
   color: #415A61;
   font-size: 46px;
   font-family: avenir-next-demi; 
+  font-weight: 600;
   line-height: 135%;
   margin-bottom: 12px;
 }
@@ -295,6 +296,7 @@
   }
   .section2 p {
     font-size: 23px;
+    width: 80%;
   }
 }
 
@@ -328,6 +330,7 @@
   .section1 h2 {
     font-size: 76px;
     font-family: avenir-next-demi;
+    font-weight: 600;
     margin: 0 auto;
     /* margin-top: -8px; */
     text-align: center;
@@ -410,6 +413,7 @@
   }
   .section2 p {
     font-size: 19px;
+    width: 100%;
   }
   .section2{
     margin-left: 2vw;
