@@ -57,7 +57,8 @@ export default function Home() {
         </h2>
       </div>
       <Section2 />
-      <div style={{ height: 300 }} />
+      <div style={{ height: 300 }} className="desktoponly" />
+      <div style={{ height: 200 }} className="mobileonly" />
       <div
         className="col"
         style={{ maxWidth: 800, margin: "auto", alignItems: "center" }}
