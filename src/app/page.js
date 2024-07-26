@@ -23,7 +23,7 @@ export default function Home() {
       <div className={styles.section1}>
         <div
           className={cs("col", styles.section1col)}
-          style={{ marginRight: 66, width: 675 }}
+          style={{ marginRight: 50, width: 690 }}
         >
           <h2 className="desktoponly">
             Voice Notes
