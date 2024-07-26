@@ -75,17 +75,17 @@ const Section2 = () => {
             <h3 className="wideonly">Chat, Edit, Iterate</h3>
             <p>
               Once your document has been generated, you can chat with our AI to
-              identify weak or extraneous sections to cut, suggest areas for
-              edits and revisions, find new data and topics that strengthen your
-              thesis, and more.
+              suggest areas for edits and revisions, identify extraneous
+              sections to cut, find new data and topics that strengthen your
+              thesis, and more. As you go further down this process of sculpting
+              your work, you can also add new audio to the note to be
+              incorporated into the document.
             </p>
             <br />
             <p>
-              Enter Monolog. Our platform takes in your unfiltered speech and
-              automatically transcribes and transforms it into a dynamic
-              document, fine-tuned to kickstart your creative process. Simply
-              free associate into a microphone and our AI will take care of the
-              rest.
+              And finally when you’re ready, you can easily export your voice
+              note document into markdown, Google Docs, or Microsoft Word to put
+              the finishing touches on your creation and publish it!
             </p>
           </div>
           <Image
