@@ -285,7 +285,7 @@
   }
 
   .section2 h3 {
-    font-size: 52px;
+    font-size: 48px;
     margin-bottom: 0;
   }
   
@@ -329,7 +329,7 @@
   }
   .section1 h2 {
     font-size: 76px;
-    font-family: avenir-next-demi;
+    font-family: avenir-next-medium;
     font-weight: 600;
     margin: 0 auto;
     /* margin-top: -8px; */
@@ -409,8 +409,8 @@
   
   .cardimg {
     margin: 28px auto;
-    width:88vw;
-    height: calc(88vw*513/712);
+    width:90vw;
+    height: calc(90vw*513/712);
   }
   .section2 p {
     font-size: 19px;
