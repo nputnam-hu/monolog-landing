@@ -329,7 +329,7 @@
   }
   .section1 h2 {
     font-size: 76px;
-    font-family: avenir-next-medium;
+    font-family: avenir-next-demi;
     font-weight: 500;
     margin: 0 auto;
     /* margin-top: -8px; */
@@ -370,7 +370,7 @@
   .section2 h3 {
     font-size: 48px;
     margin-bottom: 0;
-    font-family: avenir-next-medium;
+    font-family: avenir-next-demi;
     font-weight: 500;
   }
   
