@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Monolog | AI Voice Notes",
+  title: "Monolog | AI Voice Notes for Creatives",
   description:
     "Generate a quality first draft for any kind of high quality creative output, just from an audio file",
 };
