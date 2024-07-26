@@ -90,13 +90,13 @@ a {
   color: black;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .mobileonly{
     display: none;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .desktoponly{
     display: none;
   }

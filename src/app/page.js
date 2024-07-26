@@ -20,7 +20,6 @@ export default function Home() {
         style={{ marginLeft: 45 }}
       />
       <div style={{ height: 96 }} className="desktoponly" />
-      <div style={{ height: 44 }} className="mobileonly" />
       <div className={styles.section1}>
         <div
           className={cs("col", styles.section1col)}
