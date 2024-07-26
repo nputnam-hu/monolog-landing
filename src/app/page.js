@@ -93,7 +93,7 @@ export default function Home() {
         <div style={{ height: 44 }} />
         <WaitlistButton />
       </div>
-      <div style={{ height: 120 }} />
+      <div style={{ height: 100 }} />
     </main>
   );
 }
