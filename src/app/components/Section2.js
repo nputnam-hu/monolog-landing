@@ -8,7 +8,7 @@ const Section2 = () => {
       <div className="col">
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
-            <h3>From Speech to Spark</h3>
+            <h3 className="wideonly">From Speech to Spark</h3>
             <p>
               Speech is an incredibly powerful tool for crafting and refining
               new ideas, but voice memos on their own are unable to unlock that
@@ -31,11 +31,14 @@ const Section2 = () => {
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
+          <h3 className="narrowonly">From Speech to Spark</h3>
         </div>
         <div style={{ height: 292 }} />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
-            <h3>Your Ideas & Insights, Scaffolded by AI</h3>
+            <h3 className="wideonly">
+              Your Ideas & Insights, Scaffolded by AI
+            </h3>
             <p>
               Unlike most AI writing tools that rely largely on short
               instruction prompts to generate text, Monolog pulls in a vast
@@ -47,26 +50,29 @@ const Section2 = () => {
               We extract key themes, ideas, and terminology from your voice note
               to inform our generations, and give you control over how the AI
               intereprets and applies that content. With this model, Monolog is
-              able to generates cogent, slop-free writing for you in your own
+              able to generate cogent, slop-free writing for you in your own
               voice.
             </p>
           </div>
           <Image
             src="/ss2.png"
-            height={501.5}
-            width={696}
+            height={513}
+            width={712}
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
+          <h3 className="narrowonly">
+            Your Ideas & Insights, Scaffolded by AI
+          </h3>
         </div>
         <div style={{ height: 292 }} />
         <div className={styles.section2__card}>
           <div className={styles.cardcol}>
-            <h3>Chat, Edit, Iterate</h3>
+            <h3 className="wideonly">Chat, Edit, Iterate</h3>
             <p>
               Once your document has been generated, you can chat with our AI to
-              suggest areas for edits and revisions, identify weak or extraneous
-              sections to cut, find new data and topics that strengthen your
+              identify weak or extraneous sections to cut, suggest areas for
+              edits and revisions, find new data and topics that strengthen your
               thesis, and more.
             </p>
             <br />
@@ -80,11 +86,12 @@ const Section2 = () => {
           </div>
           <Image
             src="/ss3.png"
-            height={501.5}
-            width={696}
+            height={513}
+            width={712}
             alt="screenshot of monolog app"
             className={styles.cardimg}
           />
+          <h3 className="narrowonly">Chat, Edit, Iterate</h3>
         </div>
       </div>
     </div>

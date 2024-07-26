@@ -101,3 +101,16 @@ a {
     display: none;
   }
 }
+
+
+@media screen and (min-width: 1100px) {
+  .narrowonly{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wideonly{
+    display: none;
+  }
+}

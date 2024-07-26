@@ -29,7 +29,6 @@ export default function Home() {
             <br />
             from the Future
           </h2>
-          <div style={{ height: 10 }} className="desktoponly" />
           <p className={inter.className}>
             Monolog is an AI voice notes app designed for wide-eyed creatives.
             Generate a quality first draft for{" "}
