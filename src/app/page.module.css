@@ -330,7 +330,7 @@
   .section1 h2 {
     font-size: 76px;
     font-family: avenir-next-medium;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 auto;
     /* margin-top: -8px; */
     text-align: center;
@@ -371,6 +371,7 @@
     font-size: 48px;
     margin-bottom: 0;
     font-family: avenir-next-medium;
+    font-weight: 500;
   }
   
   .cardimg {
