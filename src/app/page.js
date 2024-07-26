@@ -73,7 +73,7 @@ export default function Home() {
         >
           Get Notified When We Launch
         </h3>
-        <div style={{ height: 52 }} />
+        <div style={{ height: 44 }} />
         <WaitlistButton />
       </div>
       <div style={{ height: 100 }} />
