@@ -85,7 +85,7 @@ const Section2 = () => {
             <p>
               And finally when you’re ready, you can easily export your voice
               note document into markdown, Google Docs, or Microsoft Word to put
-              the finishing touches on your creation and publish it.
+              the finishing touches on your creation and publish it!
             </p>
           </div>
           <Image
